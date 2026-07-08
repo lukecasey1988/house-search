@@ -1,0 +1,42 @@
+name: Daily house search scrape
+
+on:
+  schedule:
+    # Runs at 07:00 UTC every day. GitHub may delay this by a few minutes at busy times.
+    - cron: '0 7 * * *'
+  workflow_dispatch: {}  # lets you trigger it manually from the Actions tab too
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scraper
+        run: python scraper/scraper.py
+
+      - name: Copy data into published site folder
+        run: |
+          mkdir -p docs/data
+          cp data/current_listings.json docs/data/current_listings.json
+          cp data/new_today.json docs/data/new_today.json
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "house-search-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/data/
+          git diff --quiet --cached || git commit -m "Daily scrape: $(date -u +'%Y-%m-%d')"
+          git push
