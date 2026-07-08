@@ -23,6 +23,23 @@ MIN_PRICE = 1400000
 MAX_PRICE = 2000000
 MIN_BEDROOMS = 5
 
+# Used to filter listings from agent websites that don't support server-side
+# location filtering (unlike Rightmove, where each village has its own URL).
+# Keep this in sync with LOCATIONS above.
+TARGET_VILLAGES = [
+    "Aylesbury", "Long Crendon", "Ludgershall", "Stewkley",
+    "Edlesborough", "Princes Risborough", "Risborough", "Weston Turville",
+]
+
+# Local independent agents to scrape directly, in addition to Rightmove.
+# Set to False to skip a source (e.g. if it starts erroring and you want the
+# rest of the daily run to keep working while you fix it).
+AGENT_SOURCES_ENABLED = {
+    "hamnett_hayward": True,
+    "reaston_brown": True,
+    "fine_and_country": True,
+}
+
 # Keywords checked against each listing's summary/description text.
 # Listings mentioning any of these get a "Land" flag on the site (informational only,
 # does not exclude other listings - most land isn't mentioned until you open the listing).
