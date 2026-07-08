@@ -285,6 +285,14 @@
     flex-wrap: wrap;
   }
 
+  .source-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
   .land-badge {
     display: inline-block;
     font-family: 'IBM Plex Mono', monospace;
@@ -366,8 +374,8 @@
 </div>
 
 <footer>
-  <p>Data pulled daily from Rightmove for the villages configured in the search. Prices and details link back to the original listing &mdash; always verify directly with the agent before acting on anything here.</p>
-  <p>Search criteria: 4+ bedrooms, £1.0m&ndash;£2.0m. Edit <code>scraper/config.py</code> in the repo to change villages or budget.</p>
+  <p>Data pulled daily from Rightmove plus local independent agents (Hamnett Hayward, Reaston Brown, Fine & Country). Prices and details link back to the original listing &mdash; always verify directly with the agent before acting on anything here. The same property can occasionally appear more than once if it's cross-posted &mdash; check the "via" tag on each card.</p>
+  <p>Search criteria: 5+ bedrooms, £1.4m&ndash;£2.0m, Aylesbury Grammar School catchment villages. Edit <code>scraper/config.py</code> in the repo to change villages, budget, or which agent sites are checked.</p>
 </footer>
 
 <script>
@@ -494,6 +502,7 @@ function cardHtml(l) {
         <span>${l.bathrooms || '?'} bath</span>
         <span>${escapeHtml(l.property_type || '')}</span>
       </div>
+      <div class="source-badge">via ${escapeHtml(l.source || 'Rightmove')}</div>
       ${l.has_land_mention ? '<span class="land-badge">Land / acreage mentioned</span>' : ''}
       ${l.summary ? `<div class="card-summary">${escapeHtml(l.summary)}</div>` : ''}
     </a>
