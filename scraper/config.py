@@ -13,8 +13,19 @@ LOCATIONS = {
     "Stewkley": "Stewkley",
     "Edlesborough": "Edlesborough",
     "Princes Risborough": "Princes-Risborough",
+    "Whitchurch": "Whitchurch-26696",
+    "Oving": "Oving",
+    "Cublington": "Cublington",
+    "Aston Abbotts": "Aston-Abbotts",
+    "Quainton": "Quainton",
 }
-# ^ These are the villages/towns in Aylesbury Grammar School's formal catchment area.
+# ^ These are the villages/towns in or near Aylesbury Grammar School's formal
+# catchment area. Whitchurch and its immediate neighbours (Oving, Cublington,
+# Aston Abbotts, Quainton) sit right on/near the catchment boundary - status
+# is genuinely uncertain from the published map, so they're included as
+# "worth watching" rather than confirmed in-catchment. Verify any specific
+# address via Buckinghamshire Council's postcode checker before relying on it:
+# https://services.buckscc.gov.uk/school-admissions
 # Bucks Council reviews the exact catchment boundary each admissions cycle, so it's
 # worth double-checking this list against the current year's published catchment
 # before relying on it: https://www.buckinghamshire.gov.uk (search "secondary transfer")
@@ -29,6 +40,7 @@ MIN_BEDROOMS = 5
 TARGET_VILLAGES = [
     "Aylesbury", "Long Crendon", "Ludgershall", "Stewkley",
     "Edlesborough", "Princes Risborough", "Risborough", "Weston Turville",
+    "Whitchurch", "Oving", "Cublington", "Aston Abbotts", "Quainton",
 ]
 
 # Local independent agents to scrape directly, in addition to Rightmove.
