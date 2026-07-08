@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Search — Long Crendon, Ludgershall &amp; the Aylesbury catchment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --parchment: #EFE9DA;
+    --paper: #FBF8F1;
+    --ink: #23301F;
+    --bottle: #2B4735;
+    --bottle-dark: #1B2E22;
+    --ochre: #B8862E;
+    --brick: #9C4A38;
+    --line: #C9BFA6;
+    --muted: #6B6455;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- Masthead ---------- */
+  .masthead {
+    background: var(--bottle-dark);
+    color: var(--paper);
+    padding: 48px 24px 40px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 4px solid var(--ochre);
+  }
+
+  .masthead::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      repeating-linear-gradient(0deg, rgba(184,134,46,0.06) 0px, rgba(184,134,46,0.06) 1px, transparent 1px, transparent 28px),
+      repeating-linear-gradient(90deg, rgba(184,134,46,0.06) 0px, rgba(184,134,46,0.06) 1px, transparent 1px, transparent 28px);
+    pointer-events: none;
+  }
+
+  .masthead-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ochre);
+    margin: 0 0 14px;
+  }
+
+  .masthead h1 {
+    font-family: 'Fraunces', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: clamp(32px, 5vw, 54px);
+    line-height: 1.05;
+    margin: 0 0 16px;
+    max-width: 780px;
+  }
+
+  .masthead p.sub {
+    font-size: 16px;
+    color: #D9D3C2;
+    max-width: 620px;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .updated-strip {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    color: #B7C9BB;
+    margin-top: 28px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .updated-strip strong { color: var(--paper); font-weight: 500; }
+
+  /* ---------- Controls ---------- */
+  .controls {
+    max-width: 1080px;
+    margin: -22px auto 0;
+    padding: 0 24px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .controls-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 18px 22px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 8px 24px rgba(27,46,34,0.12);
+  }
+
+  .pill {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    padding: 7px 14px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .pill:hover { border-color: var(--bottle); color: var(--bottle); }
+
+  .pill.active {
+    background: var(--bottle);
+    border-color: var(--bottle);
+    color: var(--paper);
+  }
+
+  .controls-spacer { flex: 1; }
+
+  .land-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    color: var(--muted);
+    cursor: pointer;
+  }
+
+  .land-toggle input { accent-color: var(--bottle); }
+
+  /* ---------- New today banner ---------- */
+  .new-banner {
+    max-width: 1080px;
+    margin: 20px auto 0;
+    padding: 0 24px;
+  }
+
+  .new-banner-inner {
+    background: #F4E9DD;
+    border: 1px dashed var(--ochre);
+    padding: 12px 18px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: #6B4A1E;
+    border-radius: 2px;
+  }
+
+  /* ---------- Village sections ---------- */
+  .content {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+
+  .village-group { margin-bottom: 44px; }
+
+  .village-label {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 10px;
+  }
+
+  .village-label h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    color: var(--bottle-dark);
+  }
+
+  .village-count {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+  }
+
+  /* ---------- Listing card: styled like a site notice board ---------- */
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    position: relative;
+    padding: 18px 18px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .card::before {
+    /* the "peg" of the notice board */
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    width: 14px;
+    height: 14px;
+    background: var(--ochre);
+    border-radius: 50%;
+    border: 2px solid var(--bottle-dark);
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 22px rgba(27,46,34,0.14);
+  }
+
+  .card.is-new {
+    border-color: var(--brick);
+  }
+
+  .new-flag {
+    position: absolute;
+    top: -10px;
+    right: 14px;
+    background: var(--brick);
+    color: var(--paper);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 4px 9px;
+    border-radius: 2px;
+  }
+
+  .card-thumb {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 1px;
+    background: var(--parchment);
+  }
+
+  .card-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--bottle-dark);
+  }
+
+  .card-address {
+    font-size: 13.5px;
+    color: var(--ink);
+    line-height: 1.4;
+  }
+
+  .card-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    color: var(--muted);
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .land-badge {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    color: var(--bottle);
+    border: 1px solid var(--bottle);
+    padding: 2px 7px;
+    border-radius: 999px;
+    width: fit-content;
+  }
+
+  .card-summary {
+    font-size: 12.5px;
+    color: var(--muted);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .empty-state {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--muted);
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  footer {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px 60px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  footer a { color: var(--bottle); }
+
+  @media (max-width: 600px) {
+    .masthead { padding: 36px 18px 32px; }
+    .controls-card { padding: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <p class="eyebrow">Private search &mdash; not for circulation</p>
+    <h1>Long Crendon, Ludgershall &amp; the Aylesbury Grammar catchment</h1>
+    <p class="sub">Every live listing across the villages we're watching, checked once a day. New arrivals are flagged the moment they're spotted.</p>
+    <div class="updated-strip">
+      <span>Last checked: <strong id="lastUpdated">—</strong></span>
+      <span>Live listings: <strong id="totalCount">—</strong></span>
+    </div>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="controls-card" id="villageFilters">
+    <!-- village pills injected here -->
+    <div class="controls-spacer"></div>
+    <label class="land-toggle">
+      <input type="checkbox" id="landOnly">
+      Land/acreage mentioned only
+    </label>
+  </div>
+</div>
+
+<div class="new-banner" id="newBanner" style="display:none;">
+  <div class="new-banner-inner" id="newBannerText"></div>
+</div>
+
+<div class="content" id="content">
+  <div class="empty-state">Loading listings…</div>
+</div>
+
+<footer>
+  <p>Data pulled daily from Rightmove for the villages configured in the search. Prices and details link back to the original listing &mdash; always verify directly with the agent before acting on anything here.</p>
+  <p>Search criteria: 4+ bedrooms, £1.0m&ndash;£2.0m. Edit <code>scraper/config.py</code> in the repo to change villages or budget.</p>
+</footer>
+
+<script>
+let currentListings = [];
+let newTodayIds = new Set();
+let activeVillage = 'all';
+let landOnly = false;
+
+async function loadData() {
+  try {
+    const [currentRes, newRes] = await Promise.all([
+      fetch('data/current_listings.json?_=' + Date.now()),
+      fetch('data/new_today.json?_=' + Date.now())
+    ]);
+    const current = await currentRes.json();
+    const newToday = await newRes.json();
+
+    currentListings = current.listings || [];
+    newTodayIds = new Set((newToday.listings || []).map(l => String(l.id)));
+
+    document.getElementById('lastUpdated').textContent =
+      new Date(current.last_updated).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' });
+    document.getElementById('totalCount').textContent = currentListings.length;
+
+    if (newToday.listings && newToday.listings.length > 0 && isRecent(newToday.date)) {
+      document.getElementById('newBanner').style.display = 'block';
+      document.getElementById('newBannerText').textContent =
+        `${newToday.listings.length} new listing${newToday.listings.length === 1 ? '' : 's'} spotted on ${newToday.date}.`;
+    }
+
+    buildVillageFilters();
+    render();
+  } catch (err) {
+    document.getElementById('content').innerHTML =
+      '<div class="empty-state">Could not load listing data yet. If this is a brand new deployment, the first scrape may not have run yet — check the GitHub Actions tab.</div>';
+    console.error(err);
+  }
+}
+
+function isRecent(dateStr) {
+  const d = new Date(dateStr);
+  const now = new Date();
+  return (now - d) < 1000 * 60 * 60 * 48; // show banner for 48h
+}
+
+function buildVillageFilters() {
+  const villages = [...new Set(currentListings.map(l => l.village))].sort();
+  const container = document.getElementById('villageFilters');
+  const spacer = container.querySelector('.controls-spacer');
+
+  const allPill = makePill('All villages', 'all', true);
+  container.insertBefore(allPill, spacer);
+
+  villages.forEach(v => {
+    container.insertBefore(makePill(v, v, false), spacer);
+  });
+}
+
+function makePill(label, value, active) {
+  const btn = document.createElement('button');
+  btn.className = 'pill' + (active ? ' active' : '');
+  btn.textContent = label;
+  btn.dataset.value = value;
+  btn.addEventListener('click', () => {
+    activeVillage = value;
+    document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    render();
+  });
+  return btn;
+}
+
+document.getElementById('landOnly').addEventListener('change', (e) => {
+  landOnly = e.target.checked;
+  render();
+});
+
+function render() {
+  const content = document.getElementById('content');
+  let filtered = currentListings;
+
+  if (activeVillage !== 'all') {
+    filtered = filtered.filter(l => l.village === activeVillage);
+  }
+  if (landOnly) {
+    filtered = filtered.filter(l => l.has_land_mention);
+  }
+
+  if (filtered.length === 0) {
+    content.innerHTML = '<div class="empty-state">No listings match this filter right now. Check back tomorrow, or widen the filters above.</div>';
+    return;
+  }
+
+  const grouped = {};
+  filtered.forEach(l => {
+    if (!grouped[l.village]) grouped[l.village] = [];
+    grouped[l.village].push(l);
+  });
+
+  content.innerHTML = Object.entries(grouped).map(([village, listings]) => `
+    <div class="village-group">
+      <div class="village-label">
+        <h2>${escapeHtml(village)}</h2>
+        <span class="village-count">${listings.length} listing${listings.length === 1 ? '' : 's'}</span>
+      </div>
+      <div class="grid">
+        ${listings.map(cardHtml).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+function cardHtml(l) {
+  const isNew = newTodayIds.has(String(l.id));
+  const thumb = l.thumbnail || '';
+  return `
+    <a class="card ${isNew ? 'is-new' : ''}" href="${l.url}" target="_blank" rel="noopener">
+      ${isNew ? '<span class="new-flag">New today</span>' : ''}
+      ${thumb ? `<img class="card-thumb" src="${thumb}" alt="" loading="lazy">` : ''}
+      <div class="card-price">${l.price_display || '—'}</div>
+      <div class="card-address">${escapeHtml(l.address || '')}</div>
+      <div class="card-meta">
+        <span>${l.bedrooms || '?'} bed</span>
+        <span>${l.bathrooms || '?'} bath</span>
+        <span>${escapeHtml(l.property_type || '')}</span>
+      </div>
+      ${l.has_land_mention ? '<span class="land-badge">Land / acreage mentioned</span>' : ''}
+      ${l.summary ? `<div class="card-summary">${escapeHtml(l.summary)}</div>` : ''}
+    </a>
+  `;
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+loadData();
+</script>
+
+</body>
+</html>
