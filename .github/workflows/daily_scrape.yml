@@ -5,6 +5,8 @@ on:
     # Runs at 07:00 UTC every day. GitHub may delay this by a few minutes at busy times.
     - cron: '0 7 * * *'
   workflow_dispatch: {}  # lets you trigger it manually from the Actions tab too
+  push:
+    branches: [main]
 
 permissions:
   contents: write
