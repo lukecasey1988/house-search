@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T11:07:15.717591+00:00",
+  "last_updated": "2026-07-09T16:21:22.472218+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -156,23 +156,6 @@
     },
     {
       "source": "Rightmove",
-      "source_id": "172405619",
-      "address": "Monks Risborough, Buckinghamshire",
-      "price": 1495000,
-      "price_display": "£1,495,000",
-      "bedrooms": 5,
-      "bathrooms": 2,
-      "property_type": "Detached",
-      "summary": " A Historic Grade II Listed Retreat with Modern Comforts An Exceptional Grade II Listed Farmhouse Set Within Mature Gardens Of Approximately Three Quarters Of An Acre, Complemented By Extensive Garaging, A Beautifully Restored Listed Barn And A Sep...",
-      "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e4af225a6/172405619/e4af225a66b2bb868887df60a138dd9e_max_476x317.jpeg",
-      "village": "Princes Risborough",
-      "id": "Rightmove::172405619",
-      "has_land_mention": true,
-      "first_seen": "2026-07-08"
-    },
-    {
-      "source": "Rightmove",
       "source_id": "173036696",
       "address": "Princes Risborough, Buckinghamshire, HP27",
       "price": 1495000,
@@ -186,6 +169,23 @@
       "village": "Princes Risborough",
       "id": "Rightmove::173036696",
       "has_land_mention": false,
+      "first_seen": "2026-07-08"
+    },
+    {
+      "source": "Rightmove",
+      "source_id": "172405619",
+      "address": "Monks Risborough, Buckinghamshire",
+      "price": 1495000,
+      "price_display": "£1,495,000",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "property_type": "Detached",
+      "summary": " A Historic Grade II Listed Retreat with Modern Comforts An Exceptional Grade II Listed Farmhouse Set Within Mature Gardens Of Approximately Three Quarters Of An Acre, Complemented By Extensive Garaging, A Beautifully Restored Listed Barn And A Sep...",
+      "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e4af225a6/172405619/e4af225a66b2bb868887df60a138dd9e_max_476x317.jpeg",
+      "village": "Princes Risborough",
+      "id": "Rightmove::172405619",
+      "has_land_mention": true,
       "first_seen": "2026-07-08"
     },
     {
@@ -301,7 +301,7 @@
       "property_type": "Detached house",
       "summary": null,
       "url": "https://www.reastonbrown.co.uk/property-details/4724696/buckinghamshire/long-crendon/high-street",
-      "thumbnail": "https://www.reastonbrown.co.uk/resize/4724696/0/768",
+      "thumbnail": "https://www.reastonbrown.co.uk/resize/4724696/0/768.pagespeed.ce.3u9i9DhIxZ.jpg",
       "village": "Long Crendon",
       "id": "Reaston Brown::4724696",
       "has_land_mention": false,
@@ -318,7 +318,7 @@
       "property_type": "Detached house",
       "summary": null,
       "url": "https://www.reastonbrown.co.uk/property-details/4549421/buckinghamshire/monks-risborough-buckinghamshire-hp27/-",
-      "thumbnail": "https://www.reastonbrown.co.uk/resize/4549421/0/768",
+      "thumbnail": "https://www.reastonbrown.co.uk/resize/4549421/0/768.pagespeed.ce.YQkh1MVLaS.jpg",
       "village": "Risborough",
       "id": "Reaston Brown::4549421",
       "has_land_mention": false,
