@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T11:03:51.944798+00:00",
+  "last_updated": "2026-07-20T09:09:26.851925+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -14,23 +14,12 @@
       "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/91039674/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
       "village": "Whitchurch",
-      "id": "Rightmove::91039674",
-      "has_land_mention": true,
-      "first_seen": "2026-07-18"
-    },
-    {
-      "source": "Rightmove",
-      "source_id": "91039674",
-      "address": "Oving Road, Whitchurch, Aylesbury, Buckinghamshire, HP22",
-      "price": 2000000,
-      "price_display": "£2,000,000",
-      "bedrooms": 8,
-      "bathrooms": 3,
-      "property_type": "Equestrian Facility",
-      "summary": "A magnificent Grade II listed family home providing in excess of 10,000sqft of internal accommodation and outbuildings, set in 5.5 acres of gardens and grounds.",
-      "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/91039674/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
-      "village": "Whitchurch",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::91039674",
       "has_land_mention": true,
       "first_seen": "2026-07-18"
@@ -48,6 +37,12 @@
       "url": "https://www.rightmove.co.uk/properties/173733929#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/63155bf28/173733929/63155bf2860d241fb51ee502f4f0b212_max_476x317.jpeg",
       "village": "Aylesbury",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/173733929#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::173733929",
       "has_land_mention": true,
       "first_seen": "2026-07-08"
@@ -65,6 +60,12 @@
       "url": "https://www.rightmove.co.uk/properties/174294314#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b4dcda235/174294314/b4dcda235d712d6928fc248eb9d9a55b_max_476x317.jpeg",
       "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/174294314#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::174294314",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -82,6 +83,12 @@
       "url": "https://www.rightmove.co.uk/properties/170846666#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/de505c69d/170846666/de505c69dfcae7ab954692c31c7f77ec_max_476x317.jpeg",
       "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/170846666#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::170846666",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -89,7 +96,7 @@
     {
       "source": "Rightmove",
       "source_id": "88634121",
-      "address": "Chilton Road, Long Crendon",
+      "address": "Chilton Road, Long Crendon, Aylesbury",
       "price": 1675000,
       "price_display": "£1,675,000",
       "bedrooms": 6,
@@ -99,6 +106,16 @@
       "url": "https://www.rightmove.co.uk/properties/88634121#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2f8982d7c/88634121/2f8982d7c27e6e7af182237353845fc6_max_476x317.jpeg",
       "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/88634121#/?channel=RES_BUY"
+        },
+        {
+          "name": "Hamnett Hayward",
+          "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1477-chilton-road-long-crendon-aylesbury"
+        }
+      ],
       "id": "Rightmove::88634121",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -116,6 +133,12 @@
       "url": "https://www.rightmove.co.uk/properties/90167505#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/068878a73/90167505/068878a7385abba1019f5ebbb90f0bf0_max_476x317.jpeg",
       "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/90167505#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::90167505",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -133,6 +156,12 @@
       "url": "https://www.rightmove.co.uk/properties/90479451#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/38f678e29/90479451/38f678e2997de0c72fc001ded37f36b0_max_476x317.jpeg",
       "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/90479451#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::90479451",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -150,6 +179,12 @@
       "url": "https://www.rightmove.co.uk/properties/173181542#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a867199f/173181542/5a867199f3806a9d2d92ec9b41ae2016_max_476x317.jpeg",
       "village": "Edlesborough",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/173181542#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::173181542",
       "has_land_mention": true,
       "first_seen": "2026-07-08"
@@ -167,6 +202,12 @@
       "url": "https://www.rightmove.co.uk/properties/172395605#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2b4413a86/172395605/2b4413a863157ffcc5f6b4068e645194_max_476x317.jpeg",
       "village": "Princes Risborough",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172395605#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::172395605",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -184,24 +225,13 @@
       "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e4af225a6/172405619/e4af225a66b2bb868887df60a138dd9e_max_476x317.jpeg",
       "village": "Princes Risborough",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::172405619",
-      "has_land_mention": true,
-      "first_seen": "2026-07-08"
-    },
-    {
-      "source": "Rightmove",
-      "source_id": "172410569",
-      "address": "Monks Risborough, Buckinghamshire",
-      "price": 1495000,
-      "price_display": "£1,495,000",
-      "bedrooms": 5,
-      "bathrooms": 2,
-      "property_type": "Detached",
-      "summary": "A stunning Grade II Listed detached farmhouse with a fabulous courtyard setting including a beautiful separate barn, indoor pool and four car garaging, set in almost 0.75 acre.",
-      "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/47d0fdcfd/172410569/47d0fdcfd58dbd701e5a8bd57cc6ce4b_max_476x317.jpeg",
-      "village": "Princes Risborough",
-      "id": "Rightmove::172410569",
       "has_land_mention": true,
       "first_seen": "2026-07-08"
     },
@@ -218,8 +248,37 @@
       "url": "https://www.rightmove.co.uk/properties/173036696#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/81033fa0a/173036696/81033fa0a263246b791f29811a70ea10_max_476x317.jpeg",
       "village": "Princes Risborough",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/173036696#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::173036696",
       "has_land_mention": false,
+      "first_seen": "2026-07-08"
+    },
+    {
+      "source": "Rightmove",
+      "source_id": "172410569",
+      "address": "Monks Risborough, Buckinghamshire",
+      "price": 1495000,
+      "price_display": "£1,495,000",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "property_type": "Detached",
+      "summary": "A stunning Grade II Listed detached farmhouse with a fabulous courtyard setting including a beautiful separate barn, indoor pool and four car garaging, set in almost 0.75 acre.",
+      "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/47d0fdcfd/172410569/47d0fdcfd58dbd701e5a8bd57cc6ce4b_max_476x317.jpeg",
+      "village": "Princes Risborough",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::172410569",
+      "has_land_mention": true,
       "first_seen": "2026-07-08"
     },
     {
@@ -235,6 +294,12 @@
       "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/172779245/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
       "village": "Whitchurch",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::172779245",
       "has_land_mention": true,
       "first_seen": "2026-07-08"
@@ -252,6 +317,12 @@
       "url": "https://www.rightmove.co.uk/properties/173940275#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a9bba742/173940275/5a9bba742732a7394111952fa2f9c2eb_max_476x317.jpeg",
       "village": "Whitchurch",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/173940275#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::173940275",
       "has_land_mention": true,
       "first_seen": "2026-07-08"
@@ -269,24 +340,13 @@
       "url": "https://www.rightmove.co.uk/properties/171215363#/?channel=RES_BUY",
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/67716981a/171215363/67716981a9f83cf44fcfbb70e0f21ef3_max_476x317.jpeg",
       "village": "Whitchurch",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/171215363#/?channel=RES_BUY"
+        }
+      ],
       "id": "Rightmove::171215363",
-      "has_land_mention": false,
-      "first_seen": "2026-07-08"
-    },
-    {
-      "source": "Hamnett Hayward",
-      "source_id": "1477",
-      "address": "Chilton Road, Long Crendon, Aylesbury",
-      "price": 1675000,
-      "price_display": "Guide price £1,675,000",
-      "bedrooms": 6,
-      "bathrooms": 3,
-      "property_type": null,
-      "summary": "The most stunning six bedroom village home, re-designed and refurbished to provide such stylish living, all within beautifully landscaped gardens adjoining open countrysidePositioned at the bottom of (...)",
-      "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1477-chilton-road-long-crendon-aylesbury",
-      "thumbnail": "https://cdns3.estateweb.com/assets/9795/of/4/pro/34682060/main/1.jpg",
-      "village": "Long Crendon",
-      "id": "Hamnett Hayward::1477",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
     },
@@ -303,6 +363,12 @@
       "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1410-sandy-lane-long-crendon-aylesbury",
       "thumbnail": "https://cdns3.estateweb.com/assets/9795/of/4/pro/34392497/main/1.jpg",
       "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Hamnett Hayward",
+          "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1410-sandy-lane-long-crendon-aylesbury"
+        }
+      ],
       "id": "Hamnett Hayward::1410",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -320,6 +386,12 @@
       "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1440-chearsley-road-long-crendon",
       "thumbnail": "https://cdns3.estateweb.com/assets/9795/of/4/pro/34543702/main/1.jpg",
       "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Hamnett Hayward",
+          "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1440-chearsley-road-long-crendon"
+        }
+      ],
       "id": "Hamnett Hayward::1440",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -335,8 +407,14 @@
       "property_type": "Detached house",
       "summary": null,
       "url": "https://www.reastonbrown.co.uk/property-details/4724696/buckinghamshire/long-crendon/high-street",
-      "thumbnail": "https://www.reastonbrown.co.uk/resize/4724696/0/768",
+      "thumbnail": "https://www.reastonbrown.co.uk/resize/4724696/0/768.pagespeed.ce.fBfKmnRxhD.jpg",
       "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Reaston Brown",
+          "url": "https://www.reastonbrown.co.uk/property-details/4724696/buckinghamshire/long-crendon/high-street"
+        }
+      ],
       "id": "Reaston Brown::4724696",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
@@ -352,8 +430,14 @@
       "property_type": "Detached house",
       "summary": null,
       "url": "https://www.reastonbrown.co.uk/property-details/4549421/buckinghamshire/monks-risborough-buckinghamshire-hp27/-",
-      "thumbnail": "https://www.reastonbrown.co.uk/resize/4549421/0/768",
+      "thumbnail": "https://www.reastonbrown.co.uk/resize/4549421/0/768.pagespeed.ce.YQkh1MVLaS.jpg",
       "village": "Risborough",
+      "sources": [
+        {
+          "name": "Reaston Brown",
+          "url": "https://www.reastonbrown.co.uk/property-details/4549421/buckinghamshire/monks-risborough-buckinghamshire-hp27/-"
+        }
+      ],
       "id": "Reaston Brown::4549421",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
