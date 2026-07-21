@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T13:33:02.187724+00:00",
+  "last_updated": "2026-07-21T12:15:25.380880+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -214,29 +214,6 @@
     },
     {
       "source": "Rightmove",
-      "source_id": "172410569",
-      "address": "Monks Risborough, Buckinghamshire",
-      "price": 1495000,
-      "price_display": "£1,495,000",
-      "bedrooms": 5,
-      "bathrooms": 2,
-      "property_type": "Detached",
-      "summary": "A stunning Grade II Listed detached farmhouse with a fabulous courtyard setting including a beautiful separate barn, indoor pool and four car garaging, set in almost 0.75 acre.",
-      "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/47d0fdcfd/172410569/47d0fdcfd58dbd701e5a8bd57cc6ce4b_max_476x317.jpeg",
-      "village": "Princes Risborough",
-      "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
-        }
-      ],
-      "id": "Rightmove::172410569",
-      "has_land_mention": true,
-      "first_seen": "2026-07-08"
-    },
-    {
-      "source": "Rightmove",
       "source_id": "172405619",
       "address": "Monks Risborough, Buckinghamshire",
       "price": 1495000,
@@ -279,6 +256,29 @@
       ],
       "id": "Rightmove::173036696",
       "has_land_mention": false,
+      "first_seen": "2026-07-08"
+    },
+    {
+      "source": "Rightmove",
+      "source_id": "172410569",
+      "address": "Monks Risborough, Buckinghamshire",
+      "price": 1495000,
+      "price_display": "£1,495,000",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "property_type": "Detached",
+      "summary": "A stunning Grade II Listed detached farmhouse with a fabulous courtyard setting including a beautiful separate barn, indoor pool and four car garaging, set in almost 0.75 acre.",
+      "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/47d0fdcfd/172410569/47d0fdcfd58dbd701e5a8bd57cc6ce4b_max_476x317.jpeg",
+      "village": "Princes Risborough",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::172410569",
+      "has_land_mention": true,
       "first_seen": "2026-07-08"
     },
     {
@@ -430,7 +430,7 @@
       "property_type": "Detached house",
       "summary": null,
       "url": "https://www.reastonbrown.co.uk/property-details/4549421/buckinghamshire/monks-risborough-buckinghamshire-hp27/-",
-      "thumbnail": "https://www.reastonbrown.co.uk/resize/4549421/0/768",
+      "thumbnail": "https://www.reastonbrown.co.uk/resize/4549421/0/768.pagespeed.ce.YQkh1MVLaS.jpg",
       "village": "Risborough",
       "sources": [
         {
