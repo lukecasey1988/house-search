@@ -1,6 +1,33 @@
 {
-  "last_updated": "2026-07-22T15:57:12.290763+00:00",
+  "last_updated": "2026-07-22T17:01:21.713120+00:00",
   "listings": [
+    {
+      "source": "Rightmove",
+      "source_id": "91039674",
+      "address": "Oving Road, Whitchurch, Aylesbury, Buckinghamshire, HP22",
+      "price": 2000000,
+      "price_display": "£2,000,000",
+      "bedrooms": 8,
+      "bathrooms": 3,
+      "property_type": "Equestrian Facility",
+      "summary": "A magnificent Grade II listed family home providing in excess of 10,000sqft of internal accommodation and outbuildings, set in 5.5 acres of gardens and grounds.",
+      "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/91039674/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
+      "village": "Whitchurch",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY"
+        },
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::91039674",
+      "has_land_mention": true,
+      "first_seen": "2026-07-18"
+    },
     {
       "source": "Rightmove",
       "source_id": "173733929",
@@ -41,6 +68,10 @@
         {
           "name": "Rightmove",
           "url": "https://www.rightmove.co.uk/properties/174294314#/?channel=RES_BUY"
+        },
+        {
+          "name": "Reaston Brown",
+          "url": "https://www.reastonbrown.co.uk/property-details/4724696/buckinghamshire/long-crendon/high-street"
         }
       ],
       "id": "Rightmove::174294314",
@@ -199,29 +230,6 @@
     },
     {
       "source": "Rightmove",
-      "source_id": "172410569",
-      "address": "Monks Risborough, Buckinghamshire",
-      "price": 1495000,
-      "price_display": "£1,495,000",
-      "bedrooms": 5,
-      "bathrooms": 2,
-      "property_type": "Detached",
-      "summary": "A stunning Grade II Listed detached farmhouse with a fabulous courtyard setting including a beautiful separate barn, indoor pool and four car garaging, set in almost 0.75 acre.",
-      "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/47d0fdcfd/172410569/47d0fdcfd58dbd701e5a8bd57cc6ce4b_max_476x317.jpeg",
-      "village": "Princes Risborough",
-      "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
-        }
-      ],
-      "id": "Rightmove::172410569",
-      "has_land_mention": true,
-      "first_seen": "2026-07-08"
-    },
-    {
-      "source": "Rightmove",
       "source_id": "172405619",
       "address": "Monks Risborough, Buckinghamshire",
       "price": 1495000,
@@ -272,28 +280,24 @@
     },
     {
       "source": "Rightmove",
-      "source_id": "172779245",
-      "address": "Oving Road, Whitchurch, Aylesbury, Buckinghamshire, HP22",
-      "price": 2000000,
-      "price_display": "£2,000,000",
-      "bedrooms": 8,
-      "bathrooms": 3,
+      "source_id": "172410569",
+      "address": "Monks Risborough, Buckinghamshire",
+      "price": 1495000,
+      "price_display": "£1,495,000",
+      "bedrooms": 5,
+      "bathrooms": 2,
       "property_type": "Detached",
-      "summary": "** VIEWING IS A MUST ** A quite exceptional eight bedroom village house with period features, flexible accommodation set in wonderful grounds, in all about 5.31 acres.",
-      "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/172779245/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
-      "village": "Whitchurch",
+      "summary": "A stunning Grade II Listed detached farmhouse with a fabulous courtyard setting including a beautiful separate barn, indoor pool and four car garaging, set in almost 0.75 acre.",
+      "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/47d0fdcfd/172410569/47d0fdcfd58dbd701e5a8bd57cc6ce4b_max_476x317.jpeg",
+      "village": "Princes Risborough",
       "sources": [
         {
           "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY"
-        },
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY"
+          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
         }
       ],
-      "id": "Rightmove::172779245",
+      "id": "Rightmove::172410569",
       "has_land_mention": true,
       "first_seen": "2026-07-08"
     },
@@ -340,29 +344,6 @@
         }
       ],
       "id": "Rightmove::171215363",
-      "has_land_mention": false,
-      "first_seen": "2026-07-08"
-    },
-    {
-      "source": "Reaston Brown",
-      "source_id": "4724696",
-      "address": "Long Crendon, Buckinghamshire, HP18",
-      "price": 1950000,
-      "price_display": "Guide Price £1,950,000",
-      "bedrooms": 5,
-      "bathrooms": null,
-      "property_type": "Detached house",
-      "summary": null,
-      "url": "https://www.reastonbrown.co.uk/property-details/4724696/buckinghamshire/long-crendon/high-street",
-      "thumbnail": "https://www.reastonbrown.co.uk/resize/4724696/0/768.pagespeed.ce.fBfKmnRxhD.jpg",
-      "village": "Long Crendon",
-      "sources": [
-        {
-          "name": "Reaston Brown",
-          "url": "https://www.reastonbrown.co.uk/property-details/4724696/buckinghamshire/long-crendon/high-street"
-        }
-      ],
-      "id": "Reaston Brown::4724696",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
     }
