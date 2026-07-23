@@ -77,6 +77,11 @@ MANUAL_DUPLICATE_GROUPS = [
         {"source": "Reaston Brown", "source_id": "4724696"},
     ],  # £1,950,000 Long Crendon - confirmed same property 22 Jul 2026, different
         # photos used by each site so automatic matching couldn't confirm it
+    [
+        {"source": "Rightmove", "source_id": "172405619"},
+        {"source": "Rightmove", "source_id": "172410569"},
+    ],  # £1,450,000 Princes Risborough - confirmed same property 23 Jul 2026, different
+        # photos used by each site so automatic matching couldn't confirm it
 ]
 
 REQUEST_HEADERS = {
