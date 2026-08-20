@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T07:32:19.729000+00:00",
+  "last_updated": "2026-08-20T07:35:31.315202+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -165,6 +165,10 @@
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2b4413a86/172395605/2b4413a863157ffcc5f6b4068e645194_max_476x317.jpeg",
       "village": "Princes Risborough",
       "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172395605#/?channel=RES_BUY"
+        },
         {
           "name": "Rightmove",
           "url": "https://www.rightmove.co.uk/properties/172395605#/?channel=RES_BUY"
