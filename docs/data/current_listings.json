@@ -1,33 +1,6 @@
 {
-  "last_updated": "2026-08-29T12:55:34.758374+00:00",
+  "last_updated": "2026-08-30T12:27:53.942484+00:00",
   "listings": [
-    {
-      "source": "Rightmove",
-      "source_id": "91039674",
-      "address": "Oving Road, Whitchurch, Aylesbury, Buckinghamshire, HP22",
-      "price": 2000000,
-      "price_display": "£2,000,000",
-      "bedrooms": 8,
-      "bathrooms": 3,
-      "property_type": "Equestrian Facility",
-      "summary": "A magnificent Grade II listed family home providing in excess of 10,000sqft of internal accommodation and outbuildings, set in 5.5 acres of gardens and grounds.",
-      "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/91039674/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
-      "village": "Whitchurch",
-      "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY"
-        },
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY"
-        }
-      ],
-      "id": "Rightmove::91039674",
-      "has_land_mention": true,
-      "first_seen": "2026-07-18"
-    },
     {
       "source": "Rightmove",
       "source_id": "173733929",
@@ -157,6 +130,29 @@
     },
     {
       "source": "Rightmove",
+      "source_id": "173181542",
+      "address": "The Green, Edlesborough, LU6",
+      "price": 1500000,
+      "price_display": "£1,500,000",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "property_type": "Detached",
+      "summary": "A stunning Grade II listed 4/5 bedroom detached family home set in 0.65 of an acre with award winning architect designed modern additions.",
+      "url": "https://www.rightmove.co.uk/properties/173181542#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a867199f/173181542/5a867199f3806a9d2d92ec9b41ae2016_max_476x317.jpeg",
+      "village": "Edlesborough",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/173181542#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::173181542",
+      "has_land_mention": true,
+      "first_seen": "2026-07-08"
+    },
+    {
+      "source": "Rightmove",
       "source_id": "172395605",
       "address": "Alscot Lane, Princes Risborough, Buckinghamshire, HP27",
       "price": 1525000,
@@ -180,32 +176,59 @@
     },
     {
       "source": "Rightmove",
-      "source_id": "172410569",
+      "source_id": "172405619",
       "address": "Monks Risborough, Buckinghamshire",
       "price": 1495000,
       "price_display": "£1,495,000",
       "bedrooms": 5,
       "bathrooms": 2,
       "property_type": "Detached",
-      "summary": "A stunning Grade II Listed detached farmhouse with a fabulous courtyard setting including a beautiful separate barn, indoor pool and four car garaging, set in almost 0.75 acre.",
-      "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/0d1abca25/172410569/0d1abca251d80019b5343d18e11aa701_max_476x317.jpeg",
+      "summary": " A Historic Grade II Listed Retreat with Modern Comforts An Exceptional Grade II Listed Farmhouse Set Within Mature Gardens Of Approximately Three Quarters Of An Acre, Complemented By Extensive Garaging, A Beautifully Restored Listed Barn And A Sep...",
+      "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e4af225a6/172405619/e4af225a66b2bb868887df60a138dd9e_max_476x317.jpeg",
       "village": "Princes Risborough",
       "sources": [
         {
           "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
+          "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY"
         },
         {
           "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY"
+          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
         },
         {
           "name": "Reaston Brown",
           "url": "https://www.reastonbrown.co.uk/property-details/4549421/buckinghamshire/monks-risborough-buckinghamshire-hp27/-"
         }
       ],
-      "id": "Rightmove::172410569",
+      "id": "Rightmove::172405619",
+      "has_land_mention": true,
+      "first_seen": "2026-07-08"
+    },
+    {
+      "source": "Rightmove",
+      "source_id": "172779245",
+      "address": "Oving Road, Whitchurch, Aylesbury, Buckinghamshire, HP22",
+      "price": 2000000,
+      "price_display": "£2,000,000",
+      "bedrooms": 8,
+      "bathrooms": 3,
+      "property_type": "Detached",
+      "summary": "** VIEWING IS A MUST ** A quite exceptional eight bedroom village house with period features, flexible accommodation set in wonderful grounds, in all about 5.31 acres.",
+      "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/172779245/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
+      "village": "Whitchurch",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY"
+        },
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::172779245",
       "has_land_mention": true,
       "first_seen": "2026-07-08"
     },
