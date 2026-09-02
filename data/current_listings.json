@@ -1,32 +1,28 @@
 {
-  "last_updated": "2026-09-01T12:15:40.300281+00:00",
+  "last_updated": "2026-09-02T11:53:06.387527+00:00",
   "listings": [
     {
       "source": "Rightmove",
-      "source_id": "91039674",
-      "address": "Oving Road, Whitchurch, Aylesbury, Buckinghamshire, HP22",
-      "price": 2000000,
-      "price_display": "£2,000,000",
-      "bedrooms": 8,
+      "source_id": "92608065",
+      "address": "Sandy Lane, Long Crendon, Aylesbury, HP18",
+      "price": 1995000,
+      "price_display": "£1,995,000",
+      "bedrooms": 5,
       "bathrooms": 3,
-      "property_type": "Equestrian Facility",
-      "summary": "A magnificent Grade II listed family home providing in excess of 10,000sqft of internal accommodation and outbuildings, set in 5.5 acres of gardens and grounds.",
-      "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/91039674/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
-      "village": "Whitchurch",
+      "property_type": "Detached",
+      "summary": "An impressive and substantial five-bedroom detached family home, situated in the highly sought-after village of Long Crendon and offering extensive, beautifully proportioned accommodation arranged over two floors. The property occupies a delightful setting within attractive formal grou...",
+      "url": "https://www.rightmove.co.uk/properties/92608065#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/4b4087c3a/92608065/4b4087c3ad25c20e53c712d7628560b7_max_476x317.jpeg",
+      "village": "Long Crendon",
       "sources": [
         {
           "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY"
-        },
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY"
+          "url": "https://www.rightmove.co.uk/properties/92608065#/?channel=RES_BUY"
         }
       ],
-      "id": "Rightmove::91039674",
-      "has_land_mention": true,
-      "first_seen": "2026-07-18"
+      "id": "Rightmove::92608065",
+      "has_land_mention": false,
+      "first_seen": "2026-09-02"
     },
     {
       "source": "Rightmove",
@@ -139,7 +135,7 @@
       "property_type": "House",
       "summary": "A rare opportunity to acquire a substantial Edwardian family home extended and remodelled six years ago to now offer outstanding living accommodation of character approaching 3000 sq.ft. On entering this elegant home, a generous central entrance hall provides access to all receptions which includ...",
       "url": "https://www.rightmove.co.uk/properties/90479451#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/38f678e29/90479451/38f678e2997de0c72fc001ded37f36b0_max_476x317.jpeg",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f2118df3c/90479451/f2118df3c905a2d7cad48b398cb5c5af_max_476x317.jpeg",
       "village": "Long Crendon",
       "sources": [
         {
@@ -203,32 +199,59 @@
     },
     {
       "source": "Rightmove",
-      "source_id": "172405619",
+      "source_id": "172410569",
       "address": "Monks Risborough, Buckinghamshire",
       "price": 1495000,
       "price_display": "£1,495,000",
       "bedrooms": 5,
       "bathrooms": 2,
       "property_type": "Detached",
-      "summary": " A Historic Grade II Listed Retreat with Modern Comforts An Exceptional Grade II Listed Farmhouse Set Within Mature Gardens Of Approximately Three Quarters Of An Acre, Complemented By Extensive Garaging, A Beautifully Restored Listed Barn And A Sep...",
-      "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e4af225a6/172405619/e4af225a66b2bb868887df60a138dd9e_max_476x317.jpeg",
+      "summary": "A stunning Grade II Listed detached farmhouse with a fabulous courtyard setting including a beautiful separate barn, indoor pool and four car garaging, set in almost 0.75 acre.",
+      "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/0d1abca25/172410569/0d1abca251d80019b5343d18e11aa701_max_476x317.jpeg",
       "village": "Princes Risborough",
       "sources": [
         {
           "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY"
+          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
         },
         {
           "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/172410569#/?channel=RES_BUY"
+          "url": "https://www.rightmove.co.uk/properties/172405619#/?channel=RES_BUY"
         },
         {
           "name": "Reaston Brown",
           "url": "https://www.reastonbrown.co.uk/property-details/4549421/buckinghamshire/monks-risborough-buckinghamshire-hp27/-"
         }
       ],
-      "id": "Rightmove::172405619",
+      "id": "Rightmove::172410569",
+      "has_land_mention": true,
+      "first_seen": "2026-07-08"
+    },
+    {
+      "source": "Rightmove",
+      "source_id": "172779245",
+      "address": "Oving Road, Whitchurch, Aylesbury, Buckinghamshire, HP22",
+      "price": 2000000,
+      "price_display": "£2,000,000",
+      "bedrooms": 8,
+      "bathrooms": 3,
+      "property_type": "Detached",
+      "summary": "** VIEWING IS A MUST ** A quite exceptional eight bedroom village house with period features, flexible accommodation set in wonderful grounds, in all about 5.31 acres.",
+      "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5e02077f8/172779245/5e02077f872c7948f1e934703bac870c_max_476x317.jpeg",
+      "village": "Whitchurch",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/172779245#/?channel=RES_BUY"
+        },
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/91039674#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::172779245",
       "has_land_mention": true,
       "first_seen": "2026-07-08"
     },
