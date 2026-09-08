@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T13:09:51.736783+00:00",
+  "last_updated": "2026-09-08T11:55:55.500537+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -153,33 +153,6 @@
     },
     {
       "source": "Rightmove",
-      "source_id": "90479451",
-      "address": "Long Crendon, Buckinghamshire",
-      "price": 1425000,
-      "price_display": "£1,425,000",
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "property_type": "House",
-      "summary": "A rare opportunity to acquire a substantial Edwardian family home extended and remodelled six years ago to now offer outstanding living accommodation of character approaching 3000 sq.ft. On entering this elegant home, a generous central entrance hall provides access to all receptions which includ...",
-      "url": "https://www.rightmove.co.uk/properties/90479451#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f2118df3c/90479451/f2118df3c905a2d7cad48b398cb5c5af_max_476x317.jpeg",
-      "village": "Long Crendon",
-      "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/90479451#/?channel=RES_BUY"
-        },
-        {
-          "name": "Hamnett Hayward",
-          "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1440-chearsley-road-long-crendon"
-        }
-      ],
-      "id": "Rightmove::90479451",
-      "has_land_mention": false,
-      "first_seen": "2026-07-08"
-    },
-    {
-      "source": "Rightmove",
       "source_id": "173181542",
       "address": "The Green, Edlesborough, LU6",
       "price": 1500000,
@@ -290,6 +263,29 @@
         }
       ],
       "id": "Hamnett Hayward::1477",
+      "has_land_mention": false,
+      "first_seen": "2026-07-08"
+    },
+    {
+      "source": "Hamnett Hayward",
+      "source_id": "1440",
+      "address": "Chearsley Road, Long Crendon",
+      "price": 1425000,
+      "price_display": "£1,425,000",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "property_type": null,
+      "summary": "A rare opportunity to acquire a substantial Edwardian family home extended and remodelled six years ago to now offer outstanding living accommodation of character approaching 3000 sq.ft. On entering (...)",
+      "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1440-chearsley-road-long-crendon",
+      "thumbnail": "https://cdns3.estateweb.com/assets/9795/of/4/pro/34543702/main/1.jpg",
+      "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Hamnett Hayward",
+          "url": "https://www.hamnetthayward.co.uk/properties-for-sale/property/1440-chearsley-road-long-crendon"
+        }
+      ],
+      "id": "Hamnett Hayward::1440",
       "has_land_mention": false,
       "first_seen": "2026-07-08"
     }
