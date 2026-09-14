@@ -1,4 +1,32 @@
 {
-  "date": "2026-09-13",
-  "listings": []
+  "date": "2026-09-14",
+  "listings": [
+    {
+      "source": "Rightmove",
+      "source_id": "93096153",
+      "address": "Ridings Way, Cublington",
+      "price": 1495000,
+      "price_display": "£1,495,000",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "property_type": "Farm House",
+      "summary": "Manor Farmhouse is an extremely well presented 4/5 bedroom, well-proportioned Grade II listed 18th Century home offering great charm, flexibility, beautiful gardens, and situated on the edge of the hugely popular village of Cublington.",
+      "url": "https://www.rightmove.co.uk/properties/93096153#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/be371742d/93096153/be371742d1a54d636999b932db9d1889_max_476x317.jpeg",
+      "village": "Cublington",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/93096153#/?channel=RES_BUY"
+        },
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/93096153#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::93096153",
+      "has_land_mention": false,
+      "first_seen": "2026-09-14"
+    }
+  ]
 }
