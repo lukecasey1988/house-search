@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T13:30:32.397897+00:00",
+  "last_updated": "2026-09-22T12:14:33.050301+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -42,10 +42,6 @@
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/be371742d/93096153/be371742d1a54d636999b932db9d1889_max_476x317.jpeg",
       "village": "Cublington",
       "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/93096153#/?channel=RES_BUY"
-        },
         {
           "name": "Rightmove",
           "url": "https://www.rightmove.co.uk/properties/93096153#/?channel=RES_BUY"
