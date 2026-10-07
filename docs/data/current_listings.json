@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T13:48:04.801054+00:00",
+  "last_updated": "2026-10-07T14:05:42.761445+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -15,10 +15,6 @@
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ec6c937ee/93286269/ec6c937ee8a7d89161641de9049e02e8_max_476x317.jpeg",
       "village": "Stewkley",
       "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/93286269#/?channel=RES_BUY"
-        },
         {
           "name": "Rightmove",
           "url": "https://www.rightmove.co.uk/properties/93286269#/?channel=RES_BUY"
