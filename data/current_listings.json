@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T12:17:54.100041+00:00",
+  "last_updated": "2026-10-24T11:45:25.680693+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -23,6 +23,29 @@
       "id": "Rightmove::93286269",
       "has_land_mention": true,
       "first_seen": "2026-09-18"
+    },
+    {
+      "source": "Rightmove",
+      "source_id": "92608065",
+      "address": "Sandy Lane, Long Crendon, Aylesbury, HP18",
+      "price": 1995000,
+      "price_display": "£1,995,000",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "property_type": "Detached",
+      "summary": "An impressive and substantial five-bedroom detached family home, situated in the highly sought-after village of Long Crendon and offering extensive, beautifully proportioned accommodation arranged over two floors. The property occupies a delightful setting within attractive formal grou...",
+      "url": "https://www.rightmove.co.uk/properties/92608065#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/4b4087c3a/92608065/4b4087c3ad25c20e53c712d7628560b7_max_476x317.jpeg",
+      "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/92608065#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::92608065",
+      "has_land_mention": false,
+      "first_seen": "2026-09-02"
     },
     {
       "source": "Rightmove",
@@ -68,6 +91,29 @@
       ],
       "id": "Rightmove::173733929",
       "has_land_mention": true,
+      "first_seen": "2026-07-08"
+    },
+    {
+      "source": "Rightmove",
+      "source_id": "170846666",
+      "address": "High Street, Long Crendon, Buckinghamshire, HP18",
+      "price": 1750000,
+      "price_display": "£1,750,000",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "property_type": "Detached",
+      "summary": "An exquisite, Grade II listed, 18th Century former farmhouse located in the heart of the ever-popular village of Long Crendon.",
+      "url": "https://www.rightmove.co.uk/properties/170846666#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/de505c69d/170846666/de505c69dfcae7ab954692c31c7f77ec_max_476x317.jpeg",
+      "village": "Long Crendon",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/170846666#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::170846666",
+      "has_land_mention": false,
       "first_seen": "2026-07-08"
     },
     {
