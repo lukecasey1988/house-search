@@ -1,6 +1,29 @@
 {
-  "last_updated": "2026-10-27T12:53:24.607700+00:00",
+  "last_updated": "2026-10-28T13:42:06.637099+00:00",
   "listings": [
+    {
+      "source": "Rightmove",
+      "source_id": "94797336",
+      "address": "New Road, Weston Turville, HP22",
+      "price": 1925000,
+      "price_display": "£1,925,000",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "property_type": "Detached",
+      "summary": "Charleston offers over 6000 Sq ft of refined luxury, including leisure complex and annexe set in beautifully landscaped gardens of approx 2/3 acre.",
+      "url": "https://www.rightmove.co.uk/properties/94797336#/?channel=RES_BUY",
+      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/11fbc67cd/94797336/11fbc67cd0525264e31f188683ad28fb_max_476x317.jpeg",
+      "village": "Aylesbury",
+      "sources": [
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/properties/94797336#/?channel=RES_BUY"
+        }
+      ],
+      "id": "Rightmove::94797336",
+      "has_land_mention": true,
+      "first_seen": "2026-10-28"
+    },
     {
       "source": "Rightmove",
       "source_id": "93286269",
@@ -69,29 +92,6 @@
       "id": "Rightmove::91039674",
       "has_land_mention": true,
       "first_seen": "2026-07-18"
-    },
-    {
-      "source": "Rightmove",
-      "source_id": "173733929",
-      "address": "New Road, Weston Turville",
-      "price": 1925000,
-      "price_display": "£1,925,000",
-      "bedrooms": 6,
-      "bathrooms": 4,
-      "property_type": "Detached",
-      "summary": "Welcome to Charleston, refined luxury and stylish living set in beautifully landscaped gardens set within approximately two-thirds of an acre.",
-      "url": "https://www.rightmove.co.uk/properties/173733929#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/63155bf28/173733929/63155bf2860d241fb51ee502f4f0b212_max_476x317.jpeg",
-      "village": "Aylesbury",
-      "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/173733929#/?channel=RES_BUY"
-        }
-      ],
-      "id": "Rightmove::173733929",
-      "has_land_mention": true,
-      "first_seen": "2026-07-08"
     },
     {
       "source": "Rightmove",
