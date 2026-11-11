@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T15:19:53.445067+00:00",
+  "last_updated": "2026-11-11T14:50:33.100859+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -91,29 +91,6 @@
       ],
       "id": "Rightmove::170846666",
       "has_land_mention": false,
-      "first_seen": "2026-07-08"
-    },
-    {
-      "source": "Rightmove",
-      "source_id": "173181542",
-      "address": "The Green, Edlesborough, LU6",
-      "price": 1500000,
-      "price_display": "£1,500,000",
-      "bedrooms": 5,
-      "bathrooms": 2,
-      "property_type": "Detached",
-      "summary": "A stunning Grade II listed 4/5 bedroom detached family home set in 0.65 of an acre with award winning architect designed modern additions.",
-      "url": "https://www.rightmove.co.uk/properties/173181542#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5a867199f/173181542/5a867199f3806a9d2d92ec9b41ae2016_max_476x317.jpeg",
-      "village": "Edlesborough",
-      "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/173181542#/?channel=RES_BUY"
-        }
-      ],
-      "id": "Rightmove::173181542",
-      "has_land_mention": true,
       "first_seen": "2026-07-08"
     },
     {
