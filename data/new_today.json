@@ -1,32 +1,4 @@
 {
-  "date": "2026-11-19",
-  "listings": [
-    {
-      "source": "Rightmove",
-      "source_id": "95625936",
-      "address": "Lines Hill, Aston Abbotts, Aylesbury",
-      "price": 1850000,
-      "price_display": "£1,850,000",
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "property_type": "Barn Conversion",
-      "summary": "An Exceptional Country Residence nestled in the heart of Buckinghamshire Countryside located in a unique secluded setting enjoying far-reaching views across open countryside . The property is positioned between the villages of Aston Abbots and Weedon. Set well back from the road and approached di...",
-      "url": "https://www.rightmove.co.uk/properties/95625936#/?channel=RES_BUY",
-      "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/aac387119/95625936/aac38711942e2ef1ececf5c77b88cdf3_max_476x317.jpeg",
-      "village": "Aston Abbotts",
-      "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/95625936#/?channel=RES_BUY"
-        },
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/95625936#/?channel=RES_BUY"
-        }
-      ],
-      "id": "Rightmove::95625936",
-      "has_land_mention": false,
-      "first_seen": "2026-11-19"
-    }
-  ]
+  "date": "2026-11-20",
+  "listings": []
 }
