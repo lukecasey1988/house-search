@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T17:43:58.350362+00:00",
+  "last_updated": "2026-11-26T17:26:23.311281+00:00",
   "listings": [
     {
       "source": "Rightmove",
@@ -15,10 +15,6 @@
       "thumbnail": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/aac387119/95625936/aac38711942e2ef1ececf5c77b88cdf3_max_476x317.jpeg",
       "village": "Aston Abbotts",
       "sources": [
-        {
-          "name": "Rightmove",
-          "url": "https://www.rightmove.co.uk/properties/95625936#/?channel=RES_BUY"
-        },
         {
           "name": "Rightmove",
           "url": "https://www.rightmove.co.uk/properties/95625936#/?channel=RES_BUY"
